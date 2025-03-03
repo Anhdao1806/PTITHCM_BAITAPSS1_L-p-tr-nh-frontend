@@ -1,0 +1,9 @@
+.text{
+    background-color: rgb(228, 224, 176);
+    border-left: solid rgb(159, 166, 34)10px;
+    padding: 10px;
+}
+h2{
+    color: rgb(109, 171, 205);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
