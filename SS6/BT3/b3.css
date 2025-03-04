@@ -1,0 +1,88 @@
+header{ 
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 850px;
+    height: 70px;
+}
+.list{
+    margin-top: 8px;
+    display: flex;
+    gap: 20px;
+}
+h2{
+    margin-left: 15px;
+}
+img{
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+main{
+    display: flex;
+    background-color: #F0F0F0;;
+}
+p{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    align-content: center;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pj1{
+    width: 350px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.pj2{
+    width: 350px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+  
+}
+.pj3{
+    width: 350px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.pj4{
+    width: 350px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.Project>p{
+    display: inline;
+    margin-top: 20px;
+
+}
+button{
+    border-radius: 5px;
+}
+footer{
+    height: 50px;
+    background-color: #F1F1F1;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
+    
+}
