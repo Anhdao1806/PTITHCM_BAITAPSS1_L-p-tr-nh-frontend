@@ -1,0 +1,89 @@
+
+  .main {
+    background-image: url(https://portal.rikkei.edu.vn/assets/Hero%20Banner%203vn-HVXf8zGS.png);
+    background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+  }
+  .fa-solid{
+  margin-left: 200px;
+  cursor: pointer
+  }
+  .mes {
+      background: white;
+      width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+  }
+  header h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      display: inline;
+  }
+  
+  hr {
+      border: none;
+      height: 1px;
+      background: #ddd;
+      margin: 10px 0;
+  }
+
+  label {
+      font-weight: bold;
+      display: block;
+      margin: 10px 0 5px ;
+  }
+  
+  input, textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+  }
+  
+  input {
+      background-color: #f8f9fa;
+  }
+  
+  textarea {
+      height: 80px;
+      resize: none;
+  }
+  footer {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 10px;
+  }
+  
+  button {
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  button:first-child {
+      background: #6c757d;
+      color: white;
+  }
+  
+  button:last-child {
+      background: #007bff;
+      color: white;
+  }
+  
+  button:first-child:hover {
+      background: #5a6268;
+  }
+  
+  button:last-child:hover {
+      background: #0056b3;
+  }

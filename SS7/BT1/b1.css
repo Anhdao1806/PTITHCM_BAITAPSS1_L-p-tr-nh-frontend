@@ -1,0 +1,33 @@
+section{
+    display: flex;
+    gap: 15px;
+}
+.tick{
+    margin-top: 10px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b1{
+    width: 160px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.b2{
+    width: 160px;
+    height: 35px;
+    background-color: #EAEAEA;
+    color: #2B1F57;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #CBC8D7;
+}
+body{
+    background-color:#EAEAEA ;
+}
