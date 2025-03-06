@@ -1,0 +1,60 @@
+
+*{
+    text-align: center;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+p{
+font-size: 17px;
+}
+.line{
+    border-top: 1px solid #999;
+    margin-bottom: 50px;
+    width: 100px;
+    opacity: 0.7;
+    margin-left: 660px;
+    margin-top: 50px;
+}
+footer{
+    background-color: rgb(222, 224, 226);
+    padding: 70px;
+    padding-bottom: 10px;
+    margin-top: 70px;
+    opacity: 0.5;
+}
+.fa-brands{
+    font-size: 30px;
+    padding: 15px;
+}
+.textt{
+    font-size: 13px;
+    font-weight: 500;
+}
+button{
+    font-size: 15px;
+    padding: 10px 30px;
+border-radius: 5px;
+margin: 8px;
+}
+.choice1{
+    text-decoration: none;
+    border: none;
+    color: aliceblue;
+    background-color: #0080ff;
+    font-weight: 600;
+}
+.choice2{
+    opacity: 0.5;
+    font-weight: 600;
+}
+h2{
+    opacity: 0.5;
+
+}
+p{
+    opacity: 0.5;
+}
+.main{
+    background-color: rgb(243, 244, 246);
+    padding-top: 10px;
+}
