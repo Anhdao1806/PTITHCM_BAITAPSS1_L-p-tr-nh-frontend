@@ -1,0 +1,61 @@
+.all{
+    display: grid;
+    gap: 10px;
+}
+
+.line1{
+    background-color: #78BBBE;
+    display: grid;
+    grid-template-rows: 50px;
+}
+.line2{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    grid-template-rows: 200px;
+}
+.box1{
+    background-color:#EB5C47;
+    height: 200px;
+}
+.box2{
+    background-color: #F7B143;
+    height: 200px;
+}
+.line3{
+    background-color: #78BBBE;
+    display: grid;
+    grid-template-rows: 50px;
+}
+.line4{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    
+}
+.number1{
+    background-color: #40607B;
+    display: grid;
+    grid-template-rows: 200px;
+    height: 200px;
+}
+.number2{
+    background-color: #F27A70;
+    display: grid;
+    grid-template-rows: 200px;
+    height: 200px;
+}
+.number3{
+    background-color: #F2B63F;
+    display: grid;
+    grid-template-rows: 200px;
+    height: 200px;
+}
+@media screen and ( max-width:1024px ) {
+    .line2, .box1 ,.box2{
+        display: block;
+    }
+    .line4, .number1,.number2,.number3{
+        display: block;
+    }
+}

@@ -1,0 +1,72 @@
+.all{
+    display: grid;
+    gap: 10px;
+}
+
+.line1{
+    background-color: #A70261;
+    display: grid;
+    grid-template-rows: 250px;
+}
+.line2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    grid-template-rows: 200px;
+}
+.box1{
+    background-color:#DC317F;
+    height: 200px;
+}
+.box2{
+    background-color: #DC317F;
+    height: 200px;
+}
+.box3{
+    background-color:#DC317F;
+    height: 200px;
+}
+.box4{
+    background-color: #DC317F;
+    height: 200px;
+}
+.line3{
+    display: grid;
+    grid-template-rows: 50px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 10px;
+    grid-template-rows: 200px;
+}
+.can1{
+    background-color:#DC317F;
+    height: 200px;
+}
+.can2{
+    background-color: #DC317F;
+    height: 200px;
+}
+.line4{
+    background-color: #F498CE;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 200px;
+}
+@media screen and (max-width:1200px) {
+    .line2, .box1 ,.box2,.box3,.box4{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .line3, .can1,.can2{
+        display: block;
+    }
+    
+}
+@media screen and ( max-width:768px ) {
+    .line2, .box1 ,.box2,.box3,.box4{
+        display: block;
+    }
+    .line3, .can1,.can2{
+        display: block;
+    }
+}

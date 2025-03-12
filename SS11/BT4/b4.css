@@ -1,0 +1,97 @@
+.all{
+    display: grid;
+    gap: 10px;
+}
+
+.line1{
+    display: grid;
+    /* grid-template-rows: 30px 30px; */
+    gap: 5px;
+}
+ .number1{
+    background-color: #FFA436;
+    display: grid;
+    grid-template-rows: 50px;
+} 
+.number2{
+    background-color: #FFA436;
+    display: grid;
+    grid-template-rows: 50px;
+}
+.line2{
+    background-color: #DAEB00;
+    display: grid;
+    grid-template-rows: 100px;
+}
+.line3{
+    display: grid;
+    gap: 10px;
+}
+.can1{
+    background-color: #4A89CF;
+    display: grid;
+    grid-template-rows: 50px;
+}
+.can2{
+    background-color: #4A89CF;
+    display: grid;
+    grid-template-rows: 50px;
+}
+.can3{
+    background-color: #4A89CF;
+    display: grid;
+    grid-template-rows: 50px;
+}
+.line4{
+    display: grid;
+    gap: 10px;
+}
+.box1{
+    background-color: #E3E3E3;
+    display: grid;
+    grid-template-rows: 50px;
+}
+.box2{
+    background-color: #E3E3E3;
+    display: grid;
+    grid-template-rows: 50px;
+}
+.box3{
+    background-color: #E3E3E3;
+    display: grid;
+    grid-template-rows: 50px;
+}
+.box4{
+    background-color: #E3E3E3;
+    display: grid;
+    grid-template-rows: 50px;
+}
+@media screen and (max-width: 1200px) {
+    .line1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .line3{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 100px;
+    }
+    .line4{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    .line1{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .line3{
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .line4{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+} 
