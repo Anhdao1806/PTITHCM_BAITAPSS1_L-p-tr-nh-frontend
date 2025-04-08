@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách nhân viên</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 52px;
+        }
+
+        table {
+            width: 40%;
+            margin: auto;
+            font-size: 18px;
+            border-spacing: 3px;
+            border: 1px solid black; 
+        }
+
+        th,
+        td {
+            border: 2px solid gray;
+            padding: 8px 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Danh sách nhân viên</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>ADDRESS</th>
+            </tr>
+        </thead>
+        <tbody id="employeeTableBody">
+        </tbody>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+</html>
